@@ -1,0 +1,1 @@
+(()=>{"use strict";setInterval((()=>function(){let t,e=Math.round(15*Math.random());const n=document.querySelector(".goblin"),l=document.getElementsByClassName("hole");for(let e=0;e<l.length;e+=1)l[e].classList.contains("goblin")&&(t=e);return t===e&&(e=Math.round(15*Math.random())),null!=n&&(n.classList.remove("goblin"),l[e].classList.add("goblin")),e}()),1e3)})();
